@@ -1,0 +1,126 @@
+body {
+    background-image: url("./Images/background-img.jpg");
+    background-size: cover;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+nav {
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr  1fr;
+    align-items: center;
+    column-gap: 2px;
+}
+#h1 {
+    grid-column: 1 / 2;
+}
+#h2 {
+    text-decoration: none;
+    grid-column: 2 / 3;
+}
+#h3 {
+    text-decoration: none;
+    grid-column: 3 / 4;
+}
+#h4 {
+    text-decoration: none;
+    grid-column: 4 / 5;
+}
+#h5 {
+    grid-column: 5 / 6;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4rem;
+    height: 40rem;
+    align-items: center;
+}
+#explore-btn {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 50px 5px 50px;
+}
+a :hover {
+    cursor: pointer;
+}
+a {
+    color: white;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+.card-1 {
+    grid-column: 1 / 2;
+    height: 12rem;
+    border-radius: 10px;
+    color: white;
+    background-image: url("./Images/card-1.jpg");
+    background-size: cover;
+}
+.card-2 {
+    grid-column: 2 / 3;
+    height: 12rem;
+    border-radius: 10px;
+    color: white;
+    background-image: url("./Images/card-1.jpg");
+    background-size: cover;
+}
+.card-3 {
+    grid-column: 1 / 2;
+    height: 12rem;
+    border-radius: 10px;
+    color: white;
+    background-image: url("./Images/card-1.jpg");
+    background-size: cover;
+}
+.card-4 {
+    grid-column: 2 / 3;
+    height: 12rem;
+    border-radius: 10px;
+    color: white;
+    background-image: url("./Images/card-1.jpg");
+    background-size: cover;
+}
+section > h5 , p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    main {
+        display: block;
+    }
+    section {
+        display: block;
+    }
+}
