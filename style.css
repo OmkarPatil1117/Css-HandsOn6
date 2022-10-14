@@ -18,13 +18,22 @@ nav {
     text-decoration: none;
     grid-column: 2 / 3;
 }
+#h2:hover {
+    color: orange;
+}
 #h3 {
     text-decoration: none;
     grid-column: 3 / 4;
 }
+#h3:hover {
+    color: orange;
+}
 #h4 {
     text-decoration: none;
     grid-column: 4 / 5;
+}
+#h4:hover {
+    color: orange;
 }
 #h5 {
     grid-column: 5 / 6;
@@ -45,6 +54,11 @@ main {
     border-radius: 20px;
     padding: 5px 50px 5px 50px;
     margin-top: 10px;
+    cursor: pointer;
+}
+#explore-btn:hover {
+    background-color: orange;
+    box-shadow: 5px 8px 8px ;
 }
 a :hover {
     cursor: pointer;
@@ -65,6 +79,9 @@ section {
     background-image: url("./Images/card-1.jpg");
     background-size: cover;
     width: 100%;
+}
+.card-1 :hover {
+    padding-top: 20px;
 }
 .card-2 {
     grid-column: 2 / 3;
