@@ -38,6 +38,10 @@ nav {
 #h5 {
     grid-column: 5 / 6;
 }
+#h5:hover {
+    color: orange;
+    cursor: pointer;
+}
 
 main {
     display: grid;
