@@ -137,7 +137,7 @@ section > h5 , p {
         display: block;
     }
     section {
-        display: block;
+        margin-top: 2rem;
     }
     #sahara {
         margin: 0px;
