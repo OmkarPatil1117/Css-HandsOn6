@@ -1,9 +1,3 @@
-body {
-    background-image: url("./Images/background-img.jpg");
-    background-size: cover;
-    margin-left: 7%;
-    margin-right: 7%;
-}
 nav {
     display: grid;
     grid-template-columns: 6fr 1fr 1fr  1fr;
@@ -138,7 +132,7 @@ section > h5 , p {
     margin-right: 1rem;
 }
 
-@media only screen and (max-width: 856px) {
+@media only screen and (max-width: 1024px) {
     main {
         display: block;
     }
